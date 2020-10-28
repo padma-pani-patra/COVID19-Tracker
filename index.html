@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Covid19tracker</title>
+    </head>
+    
+    
+    <body onload="myfunction()">
+        <div class="container">
+           
+                
+                <div class="show">
+                    <div class="confirm-container wrappered">
+                    <p  id="confirmed">Total confirmed people
+                    <span id="conres"></span>
+                    </p>
+                    <p>Number of active cases of covid-19</p>
+                    </div>
+                    
+                    <div class="death-container wrappered">
+                    <P  id="death">Total Death
+                    <span id="deathres"></span>
+                    </P>
+                    <p>Number of death cause from covid-19</p>
+                    </div>
+                    
+                    <div class="recovered-container wrappered">
+                    <p  id="recovered">Total Recovered
+                       <span id="recovres"></span>
+                    </p>
+                    <p>Number of recoveries from covid-19</p>
+                    </div>
+                </div>
+            </div>
+       
+        
+        <div class="chart-container">
+            <canvas id="mychart"></canvas>
+        </div>
+        
+        <script src="covid.js"></script>
+    </body>
+</html>
