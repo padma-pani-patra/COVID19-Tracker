@@ -1,0 +1,64 @@
+<style>
+            *{
+                margin:0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            .container{
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+               
+            }
+            
+            .show{
+                display: flex;
+                flex-wrap: wrap;
+               
+            }
+            .input-box .input{
+                border:1px solid green;
+                padding: 10px;
+            }
+            .input-box .submit-btn{
+                background: red;
+                border:none;
+                outline: none;
+                padding: 10px;
+            }
+            
+            
+            .wrappered{
+                height: 200px;
+                width:200px;
+                color: black;
+                border-bottom: 3px solid green;
+                background-color: white;
+                margin:20px;
+                text-align: left;
+                padding-left:10px;
+                padding-top: 10px;
+                box-shadow: -3px -3px 10px 0px rgba(250,250,250,0.60),
+	                        3px 3px 10px 0px  rgba(189,189,189,0.25); 
+                
+            }
+            span{
+                color: black;
+                display: block;
+            }
+            .confirm-container{
+                border-bottom: 10px solid red;
+            }
+            .death-container{
+                border-bottom: 10px solid black;     
+            }
+            .recovered-container{
+                border-bottom: 10px solid green;
+            }
+            .chart-container{
+                height: 70vh;
+                width: 70vw;
+                margin: 0 auto;
+            }
+        </style>
